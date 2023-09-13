@@ -1,0 +1,5 @@
+string =("This is an    example")
+extraspace = string.find("    ")
+print(extraspace)
+string = string.replace("    "," ")
+print (string)
